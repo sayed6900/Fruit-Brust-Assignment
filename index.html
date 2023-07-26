@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Brust</title>
+    <!-- tailwind link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Manrope link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+    .font-manrope{
+        font-family: 'Manrope', sans-serif;
+    }
+</style>
+</head>
+
+<body class="font-manrope">
+    
+    <header class="max-w-sereen-xl mx-auto px-8 md:p-16">
+    <nav>
+        <div class="navbar bg-[#F85559] text-white rounded-3xl">
+            <div class="pr-44">
+              <a class="btn btn-ghost normal-case text-sm">Home</a>
+              <a class="btn btn-ghost normal-case text-sm">About Us</a>
+              <a class="btn btn-ghost normal-case text-sm">Shop</a>
+              <a class="btn btn-ghost normal-case text-sm">All Product</a>
+            </div>
+            <div class=" flex-1 ">
+                <label  class="btn btn-ghost btn-circle ">
+                  <div class=" gap-3 flex rounded-full items-center ">
+                    <img class="w-8" src="/images/logo.png" />
+                    <h1 class="text-xl">Fruit Brust</h1>
+                    </div>
+                    
+                </label>
+                </div>
+            <div class="flex-none gap-2">
+              <div class="form-control">
+                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto rounded-3xl" />
+              </div>
+              
+            </div>
+          </div>
+    </nav>
+   </header>
+    <main>
+        <!-- POster Section Carosol -->
+        <section class="max-w-sereen-xl mx-auto px-8 md:px-16 relative">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full bg-black ">
+                  <img src="/images/banner1.png" class="w-full" />
+                  
+                 <h1 class="text-4xl font-extrabold text-white absolute top-48 left-96">Exotic Taste At your <br> door steps</h1>
+                 <button class="btn bg-[#da1919] border-0 text-white absolute top-72 left-96">Shop now</button>
+                  
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full bg-black">
+                  <img src="/images/banner2.png" class="w-full" />
+                  <h1 class="text-4xl font-extrabold text-white absolute top-48 left-96">Exotic Taste At your <br> door steps</h1>
+                 <button class="btn bg-[#da1919] border-0 text-white absolute top-72 left-96">Shop now</button>
+
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="/images/banner3.png" class="w-full" />
+                  <h1 class="text-4xl font-extrabold text-white absolute top-48 left-96">Exotic Taste At your <br> door steps</h1>
+                 <button class="btn bg-[#da1919] border-0 text-white absolute top-72 left-96">Shop now</button>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="/images/banner4.png" class="w-full" />
+                  <h1 class="text-4xl font-extrabold text-white absolute top-48 left-96">Exotic Taste At your <br> door steps</h1>
+                 <button class="btn bg-[#da1919] border-0 text-white absolute top-72 left-96">Shop now</button>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                
+              </div>
+            </div>
+             <!-- Bonus Carosol -->
+
+            <div class="bg-white gap-5 flex ml-60 w-fit h-40 absolute -bottom-16 text-center rounded-xl">
+                <div>
+                    <img src="images/fruit1.png" alt="">
+                <p class="font-bold">Grapes</p></div>
+                <div>
+                    <img src="images/fruit2.png" alt="">
+                    <p class="font-bold">Orange</p>
+                </div>
+                <div>
+                    <img src="images/fruit3.png" alt="">
+                    <p class="font-bold">Mango</p>
+                </div>
+                <div>
+                    <img src="images/fruit4.png" alt="">
+                    <p class="font-bold">Strawbwrry</p>
+                </div>
+                <div>
+                    <img src="images/fruit5.png" alt="">
+                    <p class="font-bold">Promegranate</p>
+
+                </div>
+             </div>
+            
+            </section>
+           
+           
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
