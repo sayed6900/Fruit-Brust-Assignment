@@ -161,7 +161,7 @@
             </section>
             <!-- fruit Cards start -->
            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 rounded-xl">
-            <section class="border-2 ">
+            <section class="border-2 " id="card-1">
                 <!-- first card -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
@@ -190,8 +190,16 @@
                         <dialog id="my_modal_1" class="modal text-center justify-center">
                              <form method="dialog" class="modal-box">
                                     <img class="pl-16" src="images/fruit6.png" alt="">
-                                   <h3 class="font-bold text-lg">Orange</h3>
+                                   <h3 class="font-bold text-lg">Apple</h3>
                                     <p class="py-4">I will buy fresh fruits for all of my family</p>
+                                    
+                                    <div class="rating">
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
                         <div class="modal-action">
                              <!-- if there is a button in form, it will close the modal -->
                              <button class="btn text-red-500">Close</button>
@@ -201,7 +209,7 @@
                         </dialog>
                 </div>
             </section>
-            <section class="border-2 border-inherit">
+            <section class="border-2 border-inherit" id="card-2">
                 <!-- Second card -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
@@ -226,12 +234,20 @@
                     </div>
                     <!-- Modal -->
                     <!-- Open the modal using ID.showModal() method -->
-                        <button class="text-sm text-red-500 font-bold" onclick="my_modal_1.showModal()">Details</button>
-                        <dialog id="my_modal_1" class="modal text-center justify-center">
+                        <button class="text-sm text-red-500 font-bold" onclick="my_modal_2.showModal()">Details</button>
+                        <dialog id="my_modal_2" class="modal text-center justify-center">
                              <form method="dialog" class="modal-box">
                                     <img class="pl-16" src="images/fruit7.png" alt="">
                                    <h3 class="font-bold text-lg">Orange</h3>
                                     <p class="py-4">I will buy fresh fruits for all of my family</p>
+                                    <div class="rating">
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
+
                         <div class="modal-action">
                              <!-- if there is a button in form, it will close the modal -->
                              <button class="btn text-red-500">Close</button>
@@ -241,7 +257,7 @@
                         </dialog>
                 </div>
             </section>
-            <section class="border-2 border-inherit">
+            <section class="border-2 border-inherit" id="card-3">
                 <!-- Third card -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
@@ -266,12 +282,21 @@
                     </div>
                     <!-- Modal -->
                     <!-- Open the modal using ID.showModal() method -->
-                        <button class="text-sm text-red-500 font-bold" onclick="my_modal_1.showModal()">Details</button>
-                        <dialog id="my_modal_1" class="modal text-center justify-center">
+                        <button class="text-sm text-red-500 font-bold" onclick="my_modal_3.showModal()">Details</button>
+                        <dialog id="my_modal_3" class="modal text-center justify-center">
                              <form method="dialog" class="modal-box">
                                     <img class="pl-16" src="images/fruit8.png" alt="">
                                    <h3 class="font-bold text-lg">Dragon</h3>
                                     <p class="py-4">I will buy fresh fruits for all of my family</p>
+
+                                    <div class="rating">
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
+
                         <div class="modal-action">
                              <!-- if there is a button in form, it will close the modal -->
                              <button class="btn text-red-500">Close</button>
@@ -281,7 +306,7 @@
                         </dialog>
                 </div>
             </section>
-            <section class="border-2 border-inherit">
+            <section class="border-2 border-inherit" id="card-4">
                 <!-- Fourth card -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
@@ -306,12 +331,21 @@
                     </div>
                     <!-- Modal -->
                     <!-- Open the modal using ID.showModal() method -->
-                        <button class="text-sm text-red-500 font-bold" onclick="my_modal_1.showModal()">Details</button>
-                        <dialog id="my_modal_1" class="modal text-center justify-center">
+                        <button class="text-sm text-red-500 font-bold" onclick="my_modal_4.showModal()">Details</button>
+                        <dialog id="my_modal_4" class="modal text-center justify-center">
                              <form method="dialog" class="modal-box">
                                     <img class="pl-16" src="images/fruit9.png" alt="">
                                    <h3 class="font-bold text-lg">Banana</h3>
                                     <p class="py-4">I will buy fresh fruits for all of my family</p>
+
+                                    <div class="rating">
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
+
                         <div class="modal-action">
                              <!-- if there is a button in form, it will close the modal -->
                              <button class="btn text-red-500">Close</button>
